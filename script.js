@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
         revealButton.style.display = "none"; // Hide the button after clicking
     });
 });
+
