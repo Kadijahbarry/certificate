@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixel Art Celebration</title>
+    <title>GitHub Certificate</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <button id="revealButton">Click to See</button>
-        <div id="hiddenMessage">
-            <p>🎉 <span class="pixel-text">Congratulations!</span></p>
-            <p><span class="pixel-text">Your team has earned a Certificate in GitHub!</span></p>
+    <div id="button-container">
+        <button id="show-certificate-button" class="pixel-button">Show Certificate</button>
+    </div>
+
+    <div id="certificate-container" class="hidden">
+        <h1 class="pixel-text">Congratulations!</h1>
+        <p class="pixel-text">Your team has earned</p>
+        <p class="pixel-text highlighted">a Certificate in GitHub!</p>
+        <div class="sparkles">
+            <span class="sparkle">*</span>
+            <span class="sparkle">*</span>
+            <span class="sparkle">*</span>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
