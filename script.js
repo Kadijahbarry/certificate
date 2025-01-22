@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
     const revealButton = document.getElementById("revealButton");
-    const hiddenContent = document.getElementById("hiddenContent");
+    const hiddenMessage = document.getElementById("hiddenMessage");
 
+    // Event listener to show hidden content
     revealButton.addEventListener("click", () => {
-        hiddenContent.style.display = "block";
+        hiddenMessage.style.display = "block"; // Show hidden message
         revealButton.style.display = "none"; // Hide the button after clicking
     });
 });
+
 
 
 
